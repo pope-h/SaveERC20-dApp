@@ -7,7 +7,7 @@ const CheckContractBalance = () => {
   return (
     <Flex direction="column" gap="3" style={{ maxWidth: 500 }}>
       {contractBalance ? (
-        <Text as="div" size="5" weight="bold" align={"center"}>
+        <Text as="div" size="5" weight="bold" align={"center"} color="green">
           {contractBalance} MTK
         </Text>
       ) : null}

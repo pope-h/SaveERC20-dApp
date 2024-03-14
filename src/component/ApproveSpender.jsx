@@ -40,7 +40,7 @@ const ApproveSpender = () => {
               Spender&apos;s Address
             </Text>
             <TextField.Input
-              value={import.meta.env.VITE_saveerc20_contract_address}
+              defaultValue={import.meta.env.VITE_saveerc20_contract_address}
               // onChange={(e) => setSpenderAddress(e.target.value)}
               placeholder="Enter spender's address"
             />

@@ -18,11 +18,11 @@ const CustomerCard = () => {
             </Text>
           </Box>
         </Flex>
-        <Flex gap="4" align="center">
-            <Deposit />
-            <Withdraw />
-        </Flex>
         <CheckBalance />
+        <Flex gap="4" align="center">
+          <Deposit />
+          <Withdraw />
+        </Flex>
       </Flex>
     </Card>
   );
